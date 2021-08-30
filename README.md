@@ -1,10 +1,11 @@
 # Reformulation-Aware-Metrics
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
 ## Introduction
 This codebase contains source-code of the Pytorch-based implementation of our CIKM 2021 paper.
-  - [Incorporating Query Reformulating Behavior into Web Search Evaluation. Chen et al.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
+  - [Chen, Jia, et al. "Incorporating Query Reformulating Behavior into Web Search Evaluation." Proceedings of the 30th ACM International Conference on Information and Knowledge Management. 2021.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
 
 
 ## Requirements
@@ -27,9 +28,9 @@ Then, bootsrap them into N samples and put the bootstapped data (directories) in
 ## Results
 The results for each metrics are shown in the following table:
 
-| Datasets <td colspan=3>TianGong-Qref  <td colspan=2>TianGong-SS-FSD
+<!-- | Datasets <td colspan=3>TianGong-Qref  <td colspan=2>TianGong-SS-FSD --> 
 <!-- |         | TianGong-Qref | TianGong-SS-FSD | -->
-| Metric  |   Spearman |  Pearson   |   SAT MSE |  Spearman |  Pearson   |   SAT MSE |
+| Metric  |   Qref Spearman |  Qref Pearson   |   Qref SAT MSE |  FSD Spearman |  FSD Pearson  |  FSD SAT MSE |
 | :---: | :--: | :---: | :---: | :--: | :---: | :---: |
 | RBP     |  0.4375 | 0.4180  |  N/A | 0.4898 | 0.5222 | N/A |
 | DCG     |  0.4434 | 0.4182  |  N/A | 0.5022 | 0.5290 | N/A | 
@@ -44,10 +45,12 @@ The results for each metrics are shown in the following table:
 | uSDBN   |  0.4837 | 0.4375 | 1.1443 | 0.6290 | 0.6081 | 0.8840 |
 | uDBN    |  0.4928 | 0.4458 | 1.0801 | 0.6339 | 0.6207 | 0.8322 |
 
+To reproduce the results of our metrics, we recommend you to use this repo: [cwl_eval](https://github.com/ireval/cwl). 🤗
+ 
 
 ## Quick Start
 To train RAMs, run the script as follows:  
-```
+```bash
 python run.py --click_model DBN \
 	--data qref \
 	--id 0 \
@@ -66,7 +69,8 @@ python run.py --click_model DBN \
 
 ## Citation
 If you find the resources in this repo useful, please do not save your star and cite our work:
-```
+
+```bibtex
 @inproceedings{chen2021incorporating,
   title={Incorporating Query Reformulating Behavior into Web Search Evaluation},
   author={Chen, Jia and Liu, Yiqun and Mao, Jiaxin and Zhang, Fan and Sakai, Tetsuya and Ma, Weizhi and Zhang, Min and Ma, Shaoping},
