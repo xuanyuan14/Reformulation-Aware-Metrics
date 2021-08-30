@@ -4,8 +4,8 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 
 ## Introduction
-This codebase contains source-code of the Pytorch-based implementation of our CIKM 2021 paper.
-  - [Chen, Jia, et al. "Incorporating Query Reformulating Behavior into Web Search Evaluation." Proceedings of the 30th ACM International Conference on Information and Knowledge Management. 2021.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
+This codebase contains source-code of the Python-based implementation of our CIKM 2021 paper.
+  - [Chen, Jia, et al. "Incorporating Query Reformulating Behavior into Web Search Evaluation." To Appear in Proceedings of the 30th ACM International Conference on Information and Knowledge Management. 2021.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
 
 
 ## Requirements
@@ -35,9 +35,9 @@ The results for each metrics are shown in the following table:
 | RBP     |  0.4375 | 0.4180  |  N/A | 0.4898 | 0.5222 | N/A |
 | DCG     |  0.4434 | 0.4182  |  N/A | 0.5022 | 0.5290 | N/A | 
 | BPM     |  0.4552 | 0.3915  |  N/A | 0.5801 | 0.6052 | N/A |
-| RBP w/ sat  |  0.4389 |  0.4170  | N/A | 0.5165 | 0.5527 | N/A |
-| DCG w/ sat  |  0.4446 |  0.4166  | N/A | 0.5047 | 0.5344 | N/A |
-| BPM w/ sat  |  0.4622 |  0.3674  | N/A | 0.5960 | 0.6029 | N/A |
+| RBP sat  |  0.4389 |  0.4170  | N/A | 0.5165 | 0.5527 | N/A |
+| DCG sat  |  0.4446 |  0.4166  | N/A | 0.5047 | 0.5344 | N/A |
+| BPM sat  |  0.4622 |  0.3674  | N/A | 0.5960 | 0.6029 | N/A |
 | rrDBN   |  0.4123 | 0.3670 | 1.1508 | 0.5908 | 0.5602 | 1.0767 |
 | rrSDBN  |  0.4177 | 0.3713 | 1.1412 | 0.5991 | 0.5703 | 1.0524 |
 | uUBM    |  0.4812 | 0.4303 | 1.0607 | 0.6242 | 0.5775 | 0.8795 |
@@ -45,7 +45,7 @@ The results for each metrics are shown in the following table:
 | uSDBN   |  0.4837 | 0.4375 | 1.1443 | 0.6290 | 0.6081 | 0.8840 |
 | uDBN    |  0.4928 | 0.4458 | 1.0801 | 0.6339 | 0.6207 | 0.8322 |
 
-To reproduce the results of our metrics, we recommend you to use this repo: [cwl_eval](https://github.com/ireval/cwl). 🤗
+To reproduce the results of traditional metrics such as RBP, DCG and BPM, we recommend you to use this repo: [cwl_eval](https://github.com/ireval/cwl). 🤗
  
 
 ## Quick Start
