@@ -4,7 +4,7 @@
 
 ## Introduction
 This codebase contains source-code of the Pytorch-based implementation of our CIKM 2021 paper.
-  - [CIKM 2021] [Incorporating Query Reformulating Behavior into Web Search Evaluation. Chen et al.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
+  - [Incorporating Query Reformulating Behavior into Web Search Evaluation. Chen et al.](http://www.thuir.cn/group/~YQLiu/publications/CIKM2021Chen.pdf)
 
 
 ### Requirements
@@ -17,10 +17,10 @@ Preprocess two datasets [**TianGong-SS-FSD**](http://www.thuir.cn/tiangong-ss-fs
 ```
 [Reformulation Type]<tab>[Click List]<tab>[Usefulness List]<tab>[Satisfaction Label]
 ```
-```Reformulation Type```: A (Add), D (Delete), K (Keep), T (Transform or Change), O (Others), F (First Query)
-```Click List```: 1 -- Clicked, 0 -- Not Clicked
-```Usefulness List```: Usefulness or Relevance, 4-scale in TianGong-QRef, 5-scale in TianGong-SS-FSD
-```Satisfaction Label```: 5-scale for both datasets 
+```Reformulation Type```: A (Add), D (Delete), K (Keep), T (Transform or Change), O (Others), F (First Query). 
+```Click List```: 1 -- Clicked, 0 -- Not Clicked. 
+```Usefulness List```: Usefulness or Relevance, 4-scale in TianGong-QRef, 5-scale in TianGong-SS-FSD.  
+```Satisfaction Label```: 5-scale for both datasets.  
 
 Then, bootsrap them into N samples and put the bootstapped data (directories) into ```./data/bootstrap_fsd``` and ```./data/bootstrap_qref```.
 
