@@ -27,7 +27,7 @@ Then, bootsrap them into N samples and put the bootstapped data (directories) in
 ## Results
 The results for each metrics are shown in the following table:
 
-| Datasets <td colspan=3>TianGong-Qref  <td colspan=2>TianGong-SS-FSD |
+| Datasets <td colspan=3>TianGong-Qref  <td colspan=2>TianGong-SS-FSD
 <!-- |         | TianGong-Qref | TianGong-SS-FSD | -->
 | Metric  |   Spearman |  Pearson   |   SAT MSE |  Spearman |  Pearson   |   SAT MSE |
 | :---: | :--: | :---: | :---: | :--: | :---: | :---: |
@@ -37,7 +37,6 @@ The results for each metrics are shown in the following table:
 | RBP w/ sat  |  0.4389 |  0.4170  | N/A | 0.5165 | 0.5527 | N/A |
 | DCG w/ sat  |  0.4446 |  0.4166  | N/A | 0.5047 | 0.5344 | N/A |
 | BPM w/ sat  |  0.4622 |  0.3674  | N/A | 0.5960 | 0.6029 | N/A |
-| :---: | :--: | :---: | :---: | :--: | :---: | :---: |
 | rrDBN   |  0.4123 | 0.3670 | 1.1508 | 0.5908 | 0.5602 | 1.0767 |
 | rrSDBN  |  0.4177 | 0.3713 | 1.1412 | 0.5991 | 0.5703 | 1.0524 |
 | uUBM    |  0.4812 | 0.4303 | 1.0607 | 0.6242 | 0.5775 | 0.8795 |
