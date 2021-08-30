@@ -65,11 +65,12 @@ python run.py --click_model DBN \
 	--patience 5 \
 	--use_knowledge True
 ```
-* ```click_model```: options: ['DBN', 'SDBN', 'UBM', 'PBM']
-* ```data```: ['fsd', 'qref']
-* ```metric_type```: ['expected_utility', 'effort']
-* ```id```: the bootstrapped sample id
+* ```click_model```: options: ['```DBN```', '```SDBN```', '```UBM```', '```PBM```']
+* ```data```: options: ['```fsd```', '```qref```']
+* ```metric_type```: options: ['```expected_utility```', '```effort```']
+* ```id```: the bootstrapped sample id.
 * ```k_num```: the number of user intent shift type will be considered, should be less than or equal to six.
+* ```max_dnum```: the maximum number of top documents to be considered for a specific query.
 * ```use_knowledge```: whether to use the transition probability from syntactic reformulation types to intent-level ones derived from the TianGong-Qref dataset.
 
 ## Citation
