@@ -30,7 +30,7 @@ The results for each metrics are shown in the following table:
 
 <!-- | Datasets <td colspan=3>TianGong-Qref  <td colspan=2>TianGong-SS-FSD --> 
 <!-- |         | TianGong-Qref | TianGong-SS-FSD | -->
-| Metric  |   Qref Spearman |  Qref Pearson   |   Qref SAT MSE |  FSD Spearman |  FSD Pearson  |  FSD SAT MSE |
+| Metric  |   Qref-Spearman |  Qref-Pearson   |   Qref-MSE |  FSD-Spearman |  FSD-Pearson  |  FSD-MSE |
 | :---: | :--: | :---: | :---: | :--: | :---: | :---: |
 | RBP     |  0.4375 | 0.4180  |  N/A | 0.4898 | 0.5222 | N/A |
 | DCG     |  0.4434 | 0.4182  |  N/A | 0.5022 | 0.5290 | N/A | 
@@ -65,7 +65,12 @@ python run.py --click_model DBN \
 	--patience 5 \
 	--use_knowledge True
 ```
-
+* ```click_model```: options: ['DBN', 'SDBN', 'UBM', 'PBM']
+* ```data```: ['fsd', 'qref']
+* ```metric_type```: ['expected_utility', 'effort']
+* ```id```: the bootstrapped sample id
+* ```k_num```: the number of user intent shift type will be considered, should be less than or equal to six.
+* ```use_knowledge```: whether to use the transition probability from syntactic reformulation types to intent-level ones derived from the TianGong-Qref dataset.
 
 ## Citation
 If you find the resources in this repo useful, please do not save your star and cite our work:
