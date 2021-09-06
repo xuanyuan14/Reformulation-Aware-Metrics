@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
+[![code-size](https://img.shields.io/github/languages/code-size/xuanyuan14/Reformulation-Aware-Metrics?color=green)]()
 
 ## Introduction
 This codebase contains source-code of the Python-based implementation of our CIKM 2021 paper.
