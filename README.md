@@ -1,5 +1,6 @@
 # Reformulation-Aware-Metrics
 
+[![THUIR](https://img.shields.io/badge/THUIR-ver%201.0-blueviolet)](www.thuir.cn)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
 [![code-size](https://img.shields.io/github/languages/code-size/xuanyuan14/Reformulation-Aware-Metrics?color=green)]()
