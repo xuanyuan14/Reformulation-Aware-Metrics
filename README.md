@@ -54,8 +54,7 @@ To reproduce the results of traditional metrics such as RBP, DCG and BPM, we rec
 To train RAMs, run the script as follows:  
 ```bash
 python run.py --click_model DBN \
-	--data qref \
-	--id 0 \
+	--data qref --id 0 \
 	--metric_type expected_utility \
 	--max_usefulness 3 \
 	--k_num 6 \
@@ -65,7 +64,7 @@ python run.py --click_model DBN \
 	--alpha_decay 0.99 \
 	--lamda 0.85 \
 	--patience 5 \
-	--use_knowledge True
+	--use_knowledge
 ```
 * ```click_model```: options: ['```DBN```', '```SDBN```', '```UBM```', '```PBM```']
 * ```data```: options: ['```fsd```', '```qref```']
