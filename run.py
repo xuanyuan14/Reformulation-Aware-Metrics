@@ -35,7 +35,7 @@ def parse_args():
 
     train_settings.add_argument('--iter_num', default=1e4, type=int, help='number of training iterations')
 
-    train_settings.add_argument('--use_knowledge', default=False, type=bool, help='whether use the transition probability matrix from TianGong-Qref')
+    train_settings.add_argument('--use_knowledge', action="store_true", help='whether use the transition probability matrix from TianGong-Qref')
 
     train_settings.add_argument('--alpha', default=1e-2, type=float, help='initial learning rate')
 
