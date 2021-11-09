@@ -81,9 +81,9 @@ If you find the resources in this repo useful, please do not save your star and 
 @inproceedings{chen2021incorporating,
   title={Incorporating Query Reformulating Behavior into Web Search Evaluation},
   author={Chen, Jia and Liu, Yiqun and Mao, Jiaxin and Zhang, Fan and Sakai, Tetsuya and Ma, Weizhi and Zhang, Min and Ma, Shaoping},
-  booktitle={Proceedings of the 30th ACM International Conference on Information and Knowledge Management},
-  year={2021},
-  organization={ACM}
+  booktitle={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  pages={171--180},
+  year={2021}
 }
 ```
 
